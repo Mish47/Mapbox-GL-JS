@@ -10,7 +10,7 @@ const map = new mapboxgl.Map({
 
 
 map.on('load', () => {
-    //Add a data source containing GeoJSON data
+    //Istanbul GeoJSON data source
     map.addSource('istanbul-data', {
         type: 'geojson',
         data: {
@@ -45,7 +45,7 @@ map.on('load', () => {
 
 
 map.on('load', () => {
-    //Add a data source containing GeoJSON data
+    //Ankara GeoJSON data source
     map.addSource('ankara-data', {
         type: 'geojson',
         data: {
